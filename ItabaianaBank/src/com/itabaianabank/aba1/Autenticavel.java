@@ -1,4 +1,4 @@
-package com.itabaianabank.aba2;
+package com.itabaianabank.aba1;
 
 public interface Autenticavel {
 	public abstract void login();

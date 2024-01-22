@@ -1,4 +1,4 @@
-package com.itabaianabank.aba2;
+package com.itabaianabank.aba1;
 
 
 
@@ -13,7 +13,7 @@ public  class Conta {
 	
 
 	public Conta(int numero, float saldo, LocalDate dataAbertura, LocalDate dataEncerramento, String tipo,
-			com.itabaianabank.aba2.CorrentistaFisico correntistaFisico) {
+			com.itabaianabank.aba1.CorrentistaFisico correntistaFisico) {
 		super();
 		this.numero = numero;
 		this.saldo = saldo;

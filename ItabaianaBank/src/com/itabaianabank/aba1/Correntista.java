@@ -1,4 +1,4 @@
-package com.itabaianabank.aba2;
+package com.itabaianabank.aba1;
 
 import java.util.Scanner;
 //import com.itabaianabank.aba1.Conta;

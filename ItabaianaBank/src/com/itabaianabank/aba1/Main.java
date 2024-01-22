@@ -59,11 +59,8 @@ public class Main {
                             
                         	Correntista cadConta = new Correntista(0, opcao, 0, false, opcao);
                             cadConta.cad_conta();
-                            if (cadConta.getTipoConta().equals("cc")) {
-                            userCp.add(cadConta);
-                            }else {
-                            userCc.add(cadConta);	
-                            }
+                            User.add(cadConta);
+                            
                             break;
                         case "4":
                         	Correntista debConta = new Correntista(0, opcao, 0, false, opcao);

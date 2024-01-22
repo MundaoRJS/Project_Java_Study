@@ -13,8 +13,8 @@ public class Main {
         ArrayList<Correntista> User = new ArrayList<>();
         ArrayList<CorrentistaFisico> user = new ArrayList<>();
         ArrayList<CorrentistaJuridico> userj = new ArrayList<>();
-        ArrayList<ContaPoupanca> userCp = new ArrayList<>();
-        ArrayList<ContaCorrente> userCc = new ArrayList<>();
+        //ArrayList<ContaPoupanca> userCp = new ArrayList<>();
+        //ArrayList<ContaCorrente> userCc = new ArrayList<>();
         ArrayList<Conta> userC = new ArrayList<>();
         for (Correntista us : User) {
             System.out.println(us + " ");
@@ -73,7 +73,7 @@ public class Main {
                             User.add(credConta);
                             break;
                         case "6":
-                        	Conta exibirSaldoDaConta = new Conta(0, 0, null, null, veriUser, loginFisico);
+                        	Conta exibirSaldoDaConta = new Conta(0, 0, null, null, null, null);
                             exibirSaldoDaConta.getSaldo();
                             userC.add(exibirSaldoDaConta);
                             break;
@@ -84,11 +84,11 @@ public class Main {
                             break;
                         case "8":
                             CorrentistaFisico logoutFisico = new CorrentistaFisico(0, opcao, 0, false, opcao);
-                            CorrentistaJuridico logoutJuridico = new CorrentistaJuridico(0, veriUser, 0, false, sen);
-                            loginJuridico.logout();
+                            CorrentistaJuridico logoutJuridico = new CorrentistaJuridico(0, null, 0, false, null);
+                            logoutJuridico.logout();
                             logoutFisico.logout();
                             user.add(logoutFisico);
-                            userj.add(loginJuridico);
+                            userj.add(logoutJuridico);
                             break;
                     }
                 }

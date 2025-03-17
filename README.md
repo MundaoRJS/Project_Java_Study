@@ -1,6 +1,6 @@
-# Projetos de Estudo em Python
+# Projetos de Estudo em Java
 
-Bem-vindo ao meu repositório de projetos! Aqui você encontrará uma coleção de projetos desenvolvidos com o intuito de aprimorar meus conhecimentos em Python e explorar diversas áreas da programação.
+Bem-vindo ao meu repositório de projetos! Aqui você encontrará uma coleção de projetos desenvolvidos com o intuito de aprimorar meus conhecimentos em Java e explorar diversas áreas da programação.
 
 ## Objetivo
 
@@ -10,11 +10,11 @@ Este repositório foi criado para fins educacionais, onde cada projeto represent
 
 Os projetos presentes neste repositório abrangem diferentes tópicos, como:
 
+- **Desenvolvimento de aplicações desktop**
+- **Manipulação de banco de dados**
+- **Desenvolvimento de APIs RESTful**
+- **Estruturas de dados e algoritmos**
 - **Automação de tarefas**
-- **Análise de dados**
-- **Desenvolvimento de APIs**
-- **Machine Learning**
-- **Scripts úteis para o dia a dia**
 
 Cada projeto é documentado com instruções claras para facilitar a compreensão e a reprodução.
 
@@ -28,6 +28,6 @@ Todos os projetos aqui disponibilizados são de código aberto, sob a licença [
 
 ---
 
-Agradeço por visitar este repositório! Espero que os projetos sejam úteis para o seu aprendizado, assim como foram para o meu. Vamos codificar! �
+Agradeço por visitar este repositório! Espero que os projetos sejam úteis para o seu aprendizado, assim como foram para o meu. Vamos codificar! 🚀
 
 **Nota:** Este repositório está em constante evolução, então não se surpreenda se encontrar novidades por aqui de tempos em tempos. 😊
